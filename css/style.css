@@ -1,0 +1,123 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background:#861822 url(../img/fondo.png) repeat;
+	color: white;
+}
+
+#love{
+	background: url(../img/love_me.png) no-repeat;
+	width: 179px; 
+	height: 136px;
+	position: absolute;
+	top: -33px;
+    right: -33px;
+	
+}
+
+#mm_verde{
+	background: url(../img/mm_verde.png) no-repeat;
+	background-size: contain;
+	width: 190px;	/* 234px */
+    height: 238px;	/* 293px */
+	position: absolute;
+    bottom: -124px;
+    left: -55px;
+}
+
+#mm_rojo{
+	background: url(../img/mm_rojo.png) no-repeat;
+	background-size: contain;
+	width: 230px;	/* 304px */
+	height: 316px;	/* 418px */
+	position: absolute;
+	bottom: -150px;
+    right: -55px;
+}
+
+@media (max-width: 480px) {
+	
+	#love{
+		background-size: contain;
+		width: 70px;
+		height: 53px;
+		top: -12px;
+		right: 5px;
+		}
+	
+	#mm_rojo{
+		background-size: contain;
+		width: 90px;
+		height: 113px;
+		bottom: -55px;
+		right: 0px;
+		}
+		
+	#mm_verde{
+		background-size: contain;
+		width: 70px;
+		height: 88px;
+		bottom: -60px;
+		left: 15px;
+		}
+	
+    }
+    
+
+#redes_sociales{
+	background:  url(../img/rrss.png) no-repeat;
+	width: 282px;
+	height: 61px;	
+}
+
+#twitter{
+	width: 45px;
+    height: 45px;
+    position: relative;
+    float: left;
+    top: 9px;
+    left: 6px;
+	/*
+	background: white;
+	opacity: 0.3;
+	*/
+}
+
+#instagram{
+	width: 45px;
+    height: 45px;
+    position: relative;
+    float: left;
+    top: 9px;
+    left: 34px;
+	/*
+	background: white;
+	opacity: 0.3;
+	*/
+}
+
+#facebook{
+	width: 45px;
+    height: 45px;
+    position: relative;
+    float: left;
+    top: 9px;
+    left: 65px;
+	/*
+	background: white;
+	opacity: 0.3;
+	*/
+}
+
+#youtube{
+	width: 45px;
+    height: 45px;
+    position: relative;
+    float: left;
+    top: 9px;
+    left: 97px;
+	/*
+	background: white;
+	opacity: 0.3;
+	*/
+}

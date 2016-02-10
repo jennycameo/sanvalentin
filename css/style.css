@@ -7,32 +7,33 @@ body{
 
 #love{
 	background: url(../img/love_me.png) no-repeat;
-	width: 179px; 
-	height: 136px;
-	position: absolute;
-	top: -33px;
-    right: -33px;
+	background-size: contain;
+	width: 121px;
+    height: 92px;
+    position: absolute;
+    top: -20px;
+    right: -9px;
 	
 }
 
 #mm_verde{
-	background: url(../img/mm_verde.png) no-repeat;
+	background: url(../img/chocolates.png) no-repeat;
 	background-size: contain;
-	width: 190px;	/* 234px */
-    height: 238px;	/* 293px */
-	position: absolute;
-    bottom: -124px;
-    left: -55px;
+	width: 163px;
+    height: 167px;
+    position: absolute;
+    bottom: -53px;
+    left: -4px;
 }
 
 #mm_rojo{
-	background: url(../img/mm_rojo.png) no-repeat;
+	background: url(../img/mms.png) no-repeat;
 	background-size: contain;
-	width: 230px;	/* 304px */
-	height: 316px;	/* 418px */
-	position: absolute;
-	bottom: -150px;
-    right: -55px;
+	width: 190px;
+    height: 156px;
+    position: absolute;
+    bottom: -50px;
+    right: -21px;
 }
 
 @media (max-width: 480px) {
@@ -48,7 +49,7 @@ body{
 	#mm_rojo{
 		background-size: contain;
 		width: 90px;
-		height: 113px;
+		height: 104px;
 		bottom: -55px;
 		right: 0px;
 		}
@@ -57,7 +58,7 @@ body{
 		background-size: contain;
 		width: 70px;
 		height: 88px;
-		bottom: -60px;
+		bottom: -35px;
 		left: 15px;
 		}
 	
@@ -66,17 +67,19 @@ body{
 
 #redes_sociales{
 	background:  url(../img/rrss.png) no-repeat;
-	width: 282px;
-	height: 61px;	
+	background-size: contain;
+	width: 256px;
+    height: 48px;
+    margin: 0 auto;	
 }
 
 #twitter{
-	width: 45px;
-    height: 45px;
+	width: 23px;
+    height: 23px;
     position: relative;
     float: left;
-    top: 9px;
-    left: 6px;
+    top: 13px;
+    left: 4px;
 	/*
 	background: white;
 	opacity: 0.3;
@@ -84,12 +87,12 @@ body{
 }
 
 #instagram{
-	width: 45px;
-    height: 45px;
+	width: 23px;
+    height: 23px;
     position: relative;
     float: left;
-    top: 9px;
-    left: 34px;
+    top: 13px;
+    left: 24px;
 	/*
 	background: white;
 	opacity: 0.3;
@@ -97,12 +100,12 @@ body{
 }
 
 #facebook{
-	width: 45px;
-    height: 45px;
+	width: 23px;
+    height: 23px;
     position: relative;
     float: left;
-    top: 9px;
-    left: 65px;
+    top: 13px;
+    left: 44px;
 	/*
 	background: white;
 	opacity: 0.3;
@@ -110,12 +113,12 @@ body{
 }
 
 #youtube{
-	width: 45px;
-    height: 45px;
+	width: 23px;
+    height: 23px;
     position: relative;
     float: left;
-    top: 9px;
-    left: 97px;
+    top: 14px;
+    left: 67px;
 	/*
 	background: white;
 	opacity: 0.3;
